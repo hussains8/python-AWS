@@ -35,3 +35,6 @@ GRANT ALL PRIVILIGES ON DATABASE PythonPortal to admin
 DROP Database name;
 postgres pgadmin4 setup:
 https://codingpub.dev/ubuntu-install-postgresql-and-pgadmin/
+
+web view of pgadmin4
+sudo /usr/pgadmin4/bin/setup-web.sh
