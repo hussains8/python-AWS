@@ -1,1 +1,34 @@
 docker-compose run "defineanyname" python "manage.py path complete" like src/django-app/manage.py migrate
+
+Install Chrome:
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+Install VS Code on ubuntu
+sudo snap install code --classic
+
+Install Notepad++
+sudo snap install notepad-plus-plus
+
+Install pip,python and django
+sudo apt-get install python3
+sudo apt-get install python3-pip
+ pip3 install Django
+ sudo apt-get install python3-django
+ Install Postgresql on ubuntu
+ sudo apt install -y postgresql postgresql-contrib
+Login to postgres
+sudo -i -u postgres
+check version of postgres
+psql
+\conninfo
+Create new user
+udo -u postgres createuser admin --interactive
+Create password of postgres
+ALTER USER postgres PASSWORD 'admin';
+psql -U postgres -h localhost
+use \l command to view db lists
+use \du command to view users list
+CREATE USER admin WITH CREATEDB LOGIN ENCRYPTED PASSWORD 'admin'
+CREATE DATABASE PythonPortal;
+GRANT ALL PRIVILIGES ON DATABASE PythonPortal to admin
