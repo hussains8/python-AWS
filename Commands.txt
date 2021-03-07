@@ -32,3 +32,6 @@ use \du command to view users list
 CREATE USER admin WITH CREATEDB LOGIN ENCRYPTED PASSWORD 'admin'
 CREATE DATABASE PythonPortal;
 GRANT ALL PRIVILIGES ON DATABASE PythonPortal to admin
+DROP Database name;
+postgres pgadmin4 setup:
+https://codingpub.dev/ubuntu-install-postgresql-and-pgadmin/
