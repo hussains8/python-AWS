@@ -1,0 +1,1 @@
+docker-compose run "defineanyname" python "manage.py path complete" like src/django-app/manage.py migrate
